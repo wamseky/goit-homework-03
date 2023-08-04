@@ -54,6 +54,36 @@ img {
   }
 /* HEADER */
 
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.container-link-header {
+display: flex;
+justify-content: space-between;
+margin: 24px 332px 24px 0;
+gap: 40px;
+padding: 5px 0;
+align-items: center;
+}
+
+.container-title-header {
+  display: flex;
+  margin: 24px 76px 24px 156px;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.container-contacts {
+  display: flex;
+  align-items: center;
+  margin: 24px 156px 24px 0;
+  padding: 5px 0;
+  gap: 40px;
+  justify-content: space-between;
+}
+
 .list {
   list-style: none;
 }
@@ -68,8 +98,6 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
-
-  margin: 24px 76px 24px 156px;
 }
 
 .link-s {
@@ -132,6 +160,66 @@ img {
     color: var(--brand-color);
   }
 /* MAIN */
+
+.container-slogan {
+  padding: 188px 0;
+}
+
+.container-slogan-text {
+  max-width: 496px; 
+  align-items: center;
+}
+
+.container-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.container-advantages {
+  padding: 120px 0;
+}
+
+.container-list {
+  gap: 24px;
+  width: calc((100% - 72px) / 4); 
+}
+.container-list-title {
+  margin-bottom: 8px;
+}
+
+.container-doing {
+  padding-bottom: 120px;
+}
+.container-caption {
+  margin-bottom: 72px;
+}
+.container-img {
+  gap: 24px;
+}
+.mini-container-img {
+  width: calc((100% - 48px) / 3);
+}
+.container-our-teame {
+  padding: 120px 0;
+}
+.container-caption-team {
+  margin-bottom: 72px;
+}
+.container-img-our-team {
+  gap: 24px;
+}
+.container-pic {
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
+}
+.container-name-work {
+  padding: 32px 0;
+  text-align: center;
+  margin-bottom: 8px;
+}
 
 .section-button {
   background-color: #2e2f42;
@@ -213,6 +301,18 @@ img {
   }
 
 /* FOTTER */
+
+.container-footer {
+  padding: 100px 0;
+}
+.container-footer-title {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.container-footer-text {
+  max-width: 264px;
+}
+
 
 .link-footer {
   color: var(--classic-background-color);
