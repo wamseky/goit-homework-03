@@ -161,8 +161,10 @@ align-items: center;
   }
 /* MAIN */
 
+
 .container-slogan {
   padding: 188px 0;
+  background-color: var(--footer-color);
 }
 
 .container-slogan-text {
@@ -221,9 +223,6 @@ align-items: center;
   margin-bottom: 8px;
 }
 
-.section-button {
-  background-color: #2e2f42;
-}
 .heading {
   color: var(--primary-white-color);
   font-size: 56px;
