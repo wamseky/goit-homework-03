@@ -71,6 +71,8 @@ img {
 
 .container-link-s {
   padding: 24px 0;
+  display: flex;
+  gap: 40px;
 }
 
 .container-title-header {
@@ -85,10 +87,11 @@ img {
 }
 
 .container-contacts {
-  display: flex;
+
 }
 
 .container-address {
+  display: flex;
   gap: 40px;
 }
 
