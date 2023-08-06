@@ -75,9 +75,9 @@ img {
 
 .container-title-header {
   display: flex;
-  margin: 24px 76px 24px 156px;
   padding: 5px 0;
   align-items: center;
+  margin-right: 332px;
 }
 
 .container-link-a {
@@ -86,8 +86,10 @@ img {
 
 .container-contacts {
   display: flex;
+}
+
+.container-address {
   gap: 40px;
-  justify-content: space-between;
 }
 
 .list {
@@ -174,7 +176,6 @@ img {
   align-items: center;
   padding: 188px 0;
   background-color: var(--footer-color);
-  
 }
 
 .container-slogan-text {
