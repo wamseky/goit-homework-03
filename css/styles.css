@@ -11,6 +11,7 @@
   --classic-background-color: #f4f4fd;
   --footer-color: #2e2f42;
   --button-color: #4d5ae5;
+  --border: 1px solid #e7e9fc;
 }
 body {
   --primary-font: "Roboto", sans-serif;
@@ -207,6 +208,7 @@ img {
 .container-list-title {
   margin-bottom: 8px;
   align-items: center;
+  width: calc((100% - 72px) / 4);
 }
 .container-list-li {
   flex-direction: row;
@@ -257,7 +259,7 @@ img {
 }
 .mini-container-button-portfolio {
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: var(--border);
   border-radius: 4px;
 }
 .mini-container-button-portfolio:hover {
