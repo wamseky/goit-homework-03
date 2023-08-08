@@ -12,6 +12,7 @@
   --footer-color: #2e2f42;
   --button-color: #4d5ae5;
   --border: 1px solid #e7e9fc;
+  --border-hover: 1px solid transparent;
 }
 body {
   --primary-font: "Roboto", sans-serif;
@@ -117,6 +118,7 @@ img {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  padding: 24px 0 24px;
 }
 
 .link-a:hover {
@@ -208,7 +210,6 @@ img {
 .container-list-title {
   margin-bottom: 8px;
   align-items: center;
-  width: calc((100% - 72px) / 4);
 }
 .container-list-li {
   flex-direction: row;
@@ -263,10 +264,10 @@ img {
   border-radius: 4px;
 }
 .mini-container-button-portfolio:hover {
-  border: 1px solid transparent;
+  border: var(--border-hover);
 }
 .mini-container-button-portfolio:focus {
-  border: 1px solid transparent;
+  border: var(--border-hover);
 }
 
 .container-pic-portfolio {
