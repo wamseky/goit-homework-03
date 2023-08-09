@@ -204,7 +204,6 @@ img {
 
 .container-list {
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .container-list-title {
   margin-bottom: 8px;
@@ -213,7 +212,7 @@ img {
 .container-list-li {
   flex-direction: row;
   min-width: 264px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .container-doing {
