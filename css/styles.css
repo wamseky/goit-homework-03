@@ -228,7 +228,13 @@ img {
 .container-our-teame {
   padding: 120px 0;
 }
+.container-portfolio {
+  padding: 120px 0;
+}
 .container-caption-team {
+  margin-bottom: 72px;
+}
+.container-caption-portfolio {
   margin-bottom: 72px;
 }
 .container-img-our-team {
@@ -240,11 +246,6 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   margin: 0;
-  width: calc((100% - 48px) / 3);
-}
-.container-div-team {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 .container-name-work {
   padding: 32px 0;
@@ -330,6 +331,7 @@ img {
   text-align: center;
   text-transform: capitalize;
 }
+
 .text {
   color: var(--body-color);
   font-size: 16px;
